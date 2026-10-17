@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Goms STS Claude Code Integration
+Bundle-SymbolicName: kr.co.goms.sts.claude;singleton:=true
+Bundle-Version: 1.3.0.qualifier
+Bundle-Vendor: GomsBook
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.ui.ide,
+ org.eclipse.core.resources,
+ org.eclipse.core.runtime,
+ org.eclipse.jface,
+ org.eclipse.swt,
+ org.eclipse.jdt.core,
+ org.eclipse.compare,
+ org.eclipse.core.filebuffers,
+ org.eclipse.text,
+ org.eclipse.jface.text,
+ org.eclipse.ui.console
+Automatic-Module-Name: kr.co.goms.sts.claude
