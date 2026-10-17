@@ -2,6 +2,34 @@
 
 A **prototype** Eclipse plug-in for Spring Tools Suite (STS). It adds **Goms AI Tools → Claude Code Chat**, uses your existing installed Claude Code CLI, detects the selected Eclipse project (with a folder-picker override), sends questions asynchronously, and retains the session within the view.
 
+## Screenshots / 실행 화면
+
+아래 이미지는 프로젝트 루트의 `doc/` 폴더에 있는 스크린샷을 표시합니다.
+
+### 1. Claude Code 설치 및 STS 연결
+
+**Claude Code 설치 완료**
+
+![Claude Code 설치 완료](doc/Claude%20Code%20설치성공.png)
+
+**Claude Code 연결 완료**
+
+![Claude Code 연결 완료](doc/Claude%20Code연결완료.png)
+
+**STS에서 Claude Code Chat 패널 열기**
+
+![Claude Code Chat 패널 열기](doc/Claude%20Code%20Chat%20패널%20열기.png)
+
+### 2. 소스 수정 및 Human Approval
+
+**코드 수정 및 승인 버튼 화면**
+
+![코드 수정 및 승인 버튼](doc/Pluging%20수정화면%20및%20승인버튼들.jpg)
+
+**코드 수정 승인 후 결과**
+
+![코드 수정 후 결과](doc/Pluging%20수정%20후%20결과화면.jpg)
+
 ## V1.3.0 changes - Build / Test automation (Maven)
 
 A **Maven** row is added: `[ auto: mvnw, MAVEN_HOME or PATH ] [...] [Compile] [Test] [Fix with Claude]`.
